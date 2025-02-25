@@ -14,7 +14,7 @@
 		"lint": "prettier --check . && eslint .",
 		"storybook": "storybook dev -p 6006",
 		"build-storybook": "storybook build",
-		"gh-pages": "npm run build && npx gh-pages -d build"
+		"postinstall": "npm install rollup @rollup/plugin-node-resolve @rollup/plugin-commonjs"
 	},
 	"devDependencies": {
 		"@chromatic-com/storybook": "^3.2.4",
@@ -27,8 +27,7 @@
 		"@storybook/svelte": "^8.5.8",
 		"@storybook/sveltekit": "^8.5.8",
 		"@storybook/test": "^8.5.8",
-		"@sveltejs/adapter-auto": "^4.0.0",
-		"@sveltejs/adapter-static": "^3.0.8",
+		"@sveltejs/adapter-vercel": "^5.6.3",
 		"@sveltejs/kit": "^2.16.0",
 		"@sveltejs/vite-plugin-svelte": "^5.0.0",
 		"@tailwindcss/vite": "^4.0.0",
