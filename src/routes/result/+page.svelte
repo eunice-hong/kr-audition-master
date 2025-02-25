@@ -1,6 +1,14 @@
 <script lang="ts">
+    import { onMount } from 'svelte';
     import { recordStore } from '$lib/index';
     import { goto } from '$app/navigation';
+    import { get } from 'svelte/store';
+
+    onMount(() => {
+        if (get(recordStore) < 1) {
+            goto('/'); // 직접 URL 입력한 경우 홈페이지로 리디렉션
+        }
+    });
 </script>
 
 <div class="min-h-screen bg-gradient-to-b from-gray-900 to-gray-800 text-white flex flex-col items-center justify-center p-4">
