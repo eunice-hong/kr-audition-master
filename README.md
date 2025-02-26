@@ -1,38 +1,40 @@
-# sv
+# K-POP Traniner Challenge
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+A web game where you watch trainees' performances and guess their final rankings.
 
-## Creating a project
+## Prerequisites
 
-If you're seeing this, you've probably already done this step. Congrats!
+- Node.js 18 or higher
+- npm or yarn
+- Basic knowledge of:
+  - Svelte/SvelteKit
+  - TypeScript
+  - TailwindCSS
 
-```bash
-# create a new project in the current directory
-npx sv create
+## Quick Start
 
-# create a new project in my-app
-npx sv create my-app
-```
+1. Clone the repository
 
-## Developing
+    ```bash
+    git clone https://github.com/eunice-hong/kpop-trainee-ranking-test.git
+    cd kpop-trainee-ranking-test
+    ```
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+2. Install dependencies
 
-```bash
-npm run dev
+    ```bash
+    npm install
+    ```
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+3. Start the development server
 
-## Building
+    ```bash
+    npm run dev
+    ```
 
-To create a production version of your app:
+## Tech Stack
 
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+- [Svelte](https://svelte.dev/)
+- [SvelteKit](https://kit.svelte.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [TailwindCSS](https://tailwindcss.com/)
