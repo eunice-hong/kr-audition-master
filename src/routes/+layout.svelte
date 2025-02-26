@@ -2,6 +2,11 @@
 	import { page } from '$app/stores';
 	import { recordStore } from '$lib/index';
 	import '../app.css';
+	import { dev } from '$app/environment';
+	import { injectAnalytics } from '@vercel/analytics/sveltekit';
+	
+	injectAnalytics({ mode: dev ? 'development' : 'production' });
+	
 	let { children } = $props();
 
 	$effect(() => {
