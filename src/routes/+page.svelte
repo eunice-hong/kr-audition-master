@@ -44,7 +44,7 @@
     <footer class="mt-8 text-gray-500 text-sm text-center">
         <p>© 2024 국프 실력 검증 테스트</p>
         <p class="mt-2">
-            <a href="https://github.com/eunjin0212" class="hover:text-gray-300 transition-colors">
+            <a href="https://github.com/eunice-hong" class="hover:text-gray-300 transition-colors">
                 GitHub
             </a>
         </p>
