@@ -18,7 +18,11 @@
 	<meta name="author" content="eunice-hong" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta charset="utf-8" />
-	<link rel="icon" href="/favicon.ico" />
+	<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+	<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+	<link rel="shortcut icon" href="/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+	<link rel="manifest" href="/site.webmanifest" />
 
 	<meta property="og:title" content="국프 실력 검증 테스트 📝" />
 	<meta property="og:description" content="당신은 진정한 국민 프로듀서인가요? 연습생들의 무대를 보고 그들의 최종 순위를 맞춰보세요!" />
